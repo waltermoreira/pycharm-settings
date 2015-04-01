@@ -1,0 +1,35 @@
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="shift control MINUS" />
+    <keyboard-shortcut first-keystroke="control SLASH" />
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="U" />
+  </action>
+  <action id="Diff.FocusOppositePane" />
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="control X" second-keystroke="U" />
+  </action>
+  <action id="EditorContextInfo" />
+  <action id="FillParagraph">
+    <keyboard-shortcut first-keystroke="alt Q" />
+  </action>
+  <action id="IpnbRunCellAction" />
+  <action id="NextSplitter" />
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="Tool_Editors_Emacs">
+    <keyboard-shortcut first-keystroke="meta E" />
+  </action>
+</keymap>
